@@ -1,3 +1,12 @@
 .nav-list {
   display: flex;
+  gap: 1rem;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.footer {
+  text-align: center;
 }
