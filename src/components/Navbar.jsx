@@ -4,7 +4,8 @@ const Navbar = () => {
   const navList = ["home", "about", "contact", "help", "login"];
 
   return (
-    <div>
+    // Cara ke 1
+    <div className="nav-list">
       {navList.map((list) => {
         return <li>{list}</li>;
       })}
@@ -14,6 +15,9 @@ const Navbar = () => {
 
 export default Navbar;
 
-navList.map((list) => <p>{list}</p>);
 
-navList.map((list) => <li>{list}</li>);
+// cara ke 2
+// navList.map((list) => <p>{list}</p>);
+
+// cara ke 3
+// navList.map((list) => <li>{list}</li>);
